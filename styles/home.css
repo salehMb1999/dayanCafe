@@ -14,18 +14,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow-x: hidden;
 }
 .nav {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  margin-top: 20px;
 }
 .logoPart {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
 }
 .logo {
   width: 85px;
@@ -69,35 +72,66 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   background-color: var(--color2);
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   color: var(--color4);
 }
 .phoneNumber {
-  font-size: 20px;
+  font-size: 18px;
 }
 .phoneIcon {
-  width: 25px;
+  width: 20px;
 }
 .mobileTitle {
-    font-family: "ordibehesht2";
-    font-weight: bold;
-    font-size: 40px;
+  font-family: "ordibehesht2";
+  font-weight: bold;
+  font-size: 40px;
 
-    background: rgb(87, 81, 71);
-    background: linear-gradient(
-      45deg,
-      rgba(87, 81, 71, 1) 0%,
-      rgba(166, 160, 152, 1) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 5px;
-    display: none;
+  background: rgb(87, 81, 71);
+  background: linear-gradient(
+    45deg,
+    rgba(87, 81, 71, 1) 0%,
+    rgba(166, 160, 152, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px;
+  display: none;
+}
+
+/* Header styles */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0;
+  gap: 50px;
+}
+.rightPart {
+  width: 55%;
+}
+.rightPart img {
+  width: 100%;
+}
+.leftPart {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.headerTitle {
+  color: var(--color3);
+  font-family: "ordibehesht2";
+  font-size: 60px;
+}
+.headerSubTitle {
+  font-family: "vazirReg";
+  font-size: 26px;
 }
