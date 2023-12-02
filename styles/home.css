@@ -1,18 +1,88 @@
 :root {
-    --color1: #cbc1b2;
-    --color2: #8f8679;
-    --color3: #575147;
-    --color4: #fff;
-    --color5: #000;
+  --color1: #cbc1b2;
+  --color2: #8f8679;
+  --color3: #575147;
+  --color4: #fff;
+  --color5: #000;
 }
 html {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 body {
-    font-family: "vazirReg";
-    background-image: url(./../public/images/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  font-family: "vazirReg";
+  background-image: url(./../public/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.logoPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  width: 85px;
+  height: 89px;
+}
+
+.navTitle {
+  font-family: "ordibehesht2";
+  font-weight: bold;
+  font-size: 80px;
+  background: rgb(87, 81, 71);
+  background: linear-gradient(
+    45deg,
+    rgba(87, 81, 71, 1) 0%,
+    rgba(166, 160, 152, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+.navMenuLink {
+  text-decoration: none;
+  color: var(--color3);
+  font-family: "negarReg";
+  font-size: 22px;
+  padding: 5px;
+}
+.navActive {
+  background-image: url(./../public/images/Ellipse\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.phoneCall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--color2);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 5px 15px;
+  color: var(--color4);
+}
+.phoneNumber {
+  font-size: 20px;
+}
+.phoneIcon {
+  width: 25px;
+  font-size: 22px;
 }

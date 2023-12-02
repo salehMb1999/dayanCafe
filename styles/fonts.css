@@ -3,12 +3,20 @@
     src: url(./../public/fonts/A\ Ordibehesht\ shablon.TTF) format("truetype");
 }
 @font-face {
+    font-family: "ordibehesht2";
+    src: url(./../public/fonts/Ordibehesht.otf) format("truetype");
+}
+@font-face {
     font-family: "vazirReg";
     src: url(./../public/fonts/Vazirmatn-Regular.woff2) format("truetype");
 }
 @font-face {
     font-family: "negarReg";
     src: url(./../public/fonts/Negaar\ Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "negarBold";
+    src: url(./../public/fonts/Negaar\ Bold.ttf) format("truetype");
 }
 @font-face {
     font-family: "vazirMed";
