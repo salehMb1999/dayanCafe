@@ -16,20 +16,72 @@
     .container {
         width: 960px;
     }
+    .nav {
+        padding: 10px 0;
+    }
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+    .navTitle {
+        font-size: 60px;
+    }
+    .navMenuLink {
+        font-size: 20px;
+    }
+    .phoneNumber {
+        font-size: 16px;
+      }
+      .phoneIcon {
+        width: 20px;
+      }
 }
 @media all and (max-width: 961px) {
     .container {
         width: 720px;
     }
+    
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+    .navTitle {
+        font-size: 40px;
+    }
+    .navMenuLink {
+        font-size: 16px;
+    }
+    .navMenu {
+        
+        gap: 15px;
+      }
+    .phoneNumber {
+        font-size: 14px;
+      }
+      .phoneIcon {
+        width: 15px;
+      }
 }
 @media all and (max-width: 721px) {
     .container {
         width: 540px;
     }
+    .phoneCall {
+        padding: 10px;
+    }
+    .phoneNumber {
+        display: none;
+    }
 }
 @media all and (max-width: 541px) {
     .container {
         width: 370px;
+    }
+    .navMenu , .navTitle {
+        display: none;
+    }
+    .mobileTitle {
+        display: inline-block;
     }
 }
 @media all and (max-width: 371px) {

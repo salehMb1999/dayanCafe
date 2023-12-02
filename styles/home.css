@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .logo {
   width: 85px;
@@ -84,5 +84,20 @@ body {
 }
 .phoneIcon {
   width: 25px;
-  font-size: 22px;
+}
+.mobileTitle {
+    font-family: "ordibehesht2";
+    font-weight: bold;
+    font-size: 40px;
+
+    background: rgb(87, 81, 71);
+    background: linear-gradient(
+      45deg,
+      rgba(87, 81, 71, 1) 0%,
+      rgba(166, 160, 152, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    display: none;
 }
