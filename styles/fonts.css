@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "ordibehesht";
+    src: url(./../public/fonts/A\ Ordibehesht\ shablon.TTF) format("truetype");
+}
+@font-face {
+    font-family: "vazirReg";
+    src: url(./../public/fonts/Vazirmatn-Regular.woff2) format("truetype");
+}
+@font-face {
+    font-family: "negarReg";
+    src: url(./../public/fonts/Negaar\ Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "vazirMed";
+    src: url(./../public/fonts/Vazirmatn-Medium.woff2) format("truetype");
+}

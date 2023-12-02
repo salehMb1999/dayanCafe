@@ -1,0 +1,18 @@
+:root {
+    --color1: #cbc1b2;
+    --color2: #8f8679;
+    --color3: #575147;
+    --color4: #fff;
+    --color5: #000;
+}
+html {
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: "vazirReg";
+    background-image: url(./../public/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
