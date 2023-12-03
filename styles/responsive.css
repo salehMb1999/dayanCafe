@@ -134,6 +134,9 @@
   .mobileTitle {
     display: inline-block;
   }
+  .menuCategories {
+    justify-content: center;
+  }
 }
 @media all and (max-width: 451px) {
   .container {

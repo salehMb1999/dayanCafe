@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
+  line-height: 1.4;
 }
 .nav {
   max-width: 80%;
@@ -84,6 +85,7 @@ body {
 }
 .phoneNumber {
   font-size: 18px;
+  margin-top: 3px;
 }
 .phoneIcon {
   width: 20px;
@@ -134,4 +136,76 @@ body {
 .headerSubTitle {
   font-family: "vazirReg";
   font-size: 26px;
+}
+
+/* Menu Styles */
+
+.menu {
+  margin: 100px 0;
+}
+.menuTitle {
+  color: var(--color3);
+  font-family: "ordibehesht2";
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.menuCategories {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category {
+  justify-self: center;
+  margin-bottom: 25px;
+}
+.categoryTop {
+  background-image: url(./../public/images/Polygon\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: -35px;
+}
+.catTopImg {
+  width: 40px;
+}
+.categoryBot {
+  background-image: url(./../public/images/Vector\ 5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  padding: 15px;
+}
+.botCatTitle {
+  color: var(--color3);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "vazirMed";
+  font-size: 26px;
+  margin-top: 20px;
+}
+.botCaption {
+  color: var(--color3);
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "vazirReg";
+  text-align: center;
+  font-size: 16px;
 }
