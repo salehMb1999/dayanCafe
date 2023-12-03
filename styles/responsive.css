@@ -87,6 +87,10 @@
   .headerSubTitle {
     font-size: 20px;
   }
+  .choiceText {
+    font-size: 22px;
+  
+  }
 }
 @media all and (max-width: 721px) {
   .container {
@@ -122,6 +126,26 @@
   .headerSubTitle {
     font-size: 20px;
   }
+  .choiceTitle {
+    font-size: 40px;
+  }
+  .choices {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .choiceWrapper {
+    justify-content: space-between;
+  }
+  .choiceImgWrapper {
+    width: 60%;
+  }
+  .choiceText {
+    font-size: 18px;
+    flex-grow: 1;
+  }
+  
 }
 @media all and (max-width: 541px) {
   .container {
@@ -136,6 +160,14 @@
   }
   .menuCategories {
     justify-content: center;
+  }
+  .choiceImgWrapper {
+    width: 50%;
+  }
+  
+  .choiceWrapper {
+    width: 50%;
+    gap: 10px;
   }
 }
 @media all and (max-width: 451px) {

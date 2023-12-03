@@ -48,7 +48,6 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 5px;
 }
 .navMenu {
   display: flex;
@@ -61,7 +60,6 @@ body {
   color: var(--color3);
   font-family: "negarReg";
   font-size: 22px;
-  padding: 5px;
 }
 .navActive {
   background-image: url(./../public/images/Ellipse\ 2.png);
@@ -103,7 +101,6 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 5px;
   display: none;
 }
 
@@ -208,4 +205,59 @@ body {
   font-family: "vazirReg";
   text-align: center;
   font-size: 16px;
+}
+
+/* Choice Styles */
+.choice {
+  margin: 100px 0;
+  overflow-x: hidden;
+}
+.choiceTitle {
+  color: var(--color3);
+  font-family: "ordibehesht2";
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.choiceImgWrapper {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.choiceImg {
+  width: 90%;
+}
+.choices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.choiceWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.choiceTikWrapper {
+  width: 30px;
+}
+.choiceTik {
+  width: 100%;
+}
+.choiceText {
+  font-family: "vazirMed";
+  font-size: 28px;
 }
