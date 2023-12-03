@@ -89,7 +89,6 @@
   }
   .choiceText {
     font-size: 22px;
-  
   }
 }
 @media all and (max-width: 721px) {
@@ -97,7 +96,9 @@
     width: 530px;
   }
   .phoneCall {
-    padding: 10px;
+    padding: 5px;
+    align-self: center;
+    margin-top: 10px;
   }
   .phoneNumber {
     display: none;
@@ -145,7 +146,6 @@
     font-size: 18px;
     flex-grow: 1;
   }
-  
 }
 @media all and (max-width: 541px) {
   .container {
@@ -154,6 +154,10 @@
   .navMenu,
   .navTitle {
     display: none;
+  }
+  .logo {
+    width: 40px;
+    height: 36px;
   }
   .mobileTitle {
     display: inline-block;
@@ -164,7 +168,15 @@
   .choiceImgWrapper {
     width: 50%;
   }
-  
+
+  .choiceTitle,
+  .aboutTitle,
+  .aboutBoss {
+    font-size: 32px;
+  }
+  .boss {
+    font-size: 40px;
+  }
   .choiceWrapper {
     width: 50%;
     gap: 10px;
@@ -173,5 +185,11 @@
 @media all and (max-width: 451px) {
   .container {
     width: 100%;
+  }
+  .mobileTitle {
+    font-size: 30px;
+  }
+  .rightPart {
+    width: 50%;
   }
 }

@@ -138,7 +138,7 @@ body {
 /* Menu Styles */
 
 .menu {
-  margin: 100px 0;
+  margin: 200px 0;
 }
 .menuTitle {
   color: var(--color3);
@@ -209,7 +209,7 @@ body {
 
 /* Choice Styles */
 .choice {
-  margin: 100px 0;
+  margin: 150px 0;
   overflow-x: hidden;
 }
 .choiceTitle {
@@ -260,4 +260,54 @@ body {
 .choiceText {
   font-family: "vazirMed";
   font-size: 28px;
+}
+
+/* About Styles */
+
+.about {
+  margin: 200px 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutTitle {
+  color: var(--color3);
+  font-family: "ordibehesht2";
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.aboutImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.aboutImg {
+  width: 100%;
+}
+
+.aboutBoss {
+  color: var(--color3);
+  font-family: "ordibehesht2";
+
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boss {
+  color: var(--color2);
+  font-family: "ordibehesht";
+
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
