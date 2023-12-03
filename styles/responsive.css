@@ -146,6 +146,13 @@
     font-size: 18px;
     flex-grow: 1;
   }
+  .galleryWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .galleryImg {
+    width: 70%;
+  }
 }
 @media all and (max-width: 541px) {
   .container {
@@ -180,6 +187,9 @@
   .choiceWrapper {
     width: 50%;
     gap: 10px;
+  }
+  .galleryImg {
+    width: 55%;
   }
 }
 @media all and (max-width: 451px) {

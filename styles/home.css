@@ -265,7 +265,7 @@ body {
 /* About Styles */
 
 .about {
-  margin: 200px 0;
+  margin: 200px 0 100px 0;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -310,4 +310,18 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+}
+
+/* Gallery Styles */
+
+.gallery {
+  background-color: var(--color1);
+  padding: 100px 0;
+}
+.galleryWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.galleryImg {
 }
