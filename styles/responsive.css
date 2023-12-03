@@ -46,6 +46,12 @@
   .phoneIcon {
     width: 20px;
   }
+  .addressTitle , .callTitle{
+    font-size: 24px;
+  }
+  .addressText , .callText {
+    font-size: 18px;
+  }
 }
 @media all and (max-width: 961px) {
   .container {
@@ -153,6 +159,14 @@
   .galleryImg {
     width: 70%;
   }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .callWrapper {
+    margin-bottom: 50px;
+  }
 }
 @media all and (max-width: 541px) {
   .container {
@@ -201,5 +215,14 @@
   }
   .rightPart {
     width: 50%;
+  }
+  .contactRight , .contactLeft{
+    width: 70%;
+  }
+  .addressTitle , .callTitle{
+    font-size: 20px;
+  }
+  .addressText , .callText {
+    font-size: 16px;
   }
 }

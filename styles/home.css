@@ -323,5 +323,38 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.galleryImg {
+
+/* Contact us Styles */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+
+.addressTitle,
+.callTitle {
+  font-family: "vazirMed";
+  font-size: 28px;
+}
+.addressWrapper {
+  margin-bottom: 50px;
+}
+.addressText,
+.callText {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.contactLeft {
+  width: 50%;
+}
+.mapImg {
+  width: 100%;
+}
+.footer {
+  background-image: url(./../public/images/footer1.png);
+  width: 100vw;
+  height: 300px;
 }
