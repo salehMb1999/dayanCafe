@@ -9,4 +9,5 @@ I utilized HTML, CSS, and JavaScript in this project, and it is an ongoing endea
 I hope you like it, and please consider giving it a star!
 
 Designer's Link: https://www.linkedin.com/in/sevda-shm/
+<br>
 Live preview: https://salehmb1999.github.io/dayanCafe/
