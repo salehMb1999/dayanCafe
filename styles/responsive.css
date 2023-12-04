@@ -46,10 +46,12 @@
   .phoneIcon {
     width: 20px;
   }
-  .addressTitle , .callTitle{
+  .addressTitle,
+  .callTitle {
     font-size: 24px;
   }
-  .addressText , .callText {
+  .addressText,
+  .callText {
     font-size: 18px;
   }
 }
@@ -144,13 +146,15 @@
   }
   .choiceWrapper {
     justify-content: space-between;
+    width: 80%;
   }
+
   .choiceImgWrapper {
     width: 60%;
   }
   .choiceText {
     font-size: 18px;
-    flex-grow: 1;
+    width: 70%;
   }
   .galleryWrapper {
     flex-wrap: wrap;
@@ -202,6 +206,10 @@
     width: 50%;
     gap: 10px;
   }
+  .choiceText {
+    font-size: 18px;
+    width: 70%;
+  }
   .galleryImg {
     width: 55%;
   }
@@ -216,13 +224,20 @@
   .rightPart {
     width: 50%;
   }
-  .contactRight , .contactLeft{
+  .contactRight,
+  .contactLeft {
     width: 70%;
   }
-  .addressTitle , .callTitle{
+  .addressTitle,
+  .callTitle {
     font-size: 20px;
   }
-  .addressText , .callText {
+  .addressText,
+  .callText {
     font-size: 16px;
+  }
+  .choiceWrapper {
+    width: 80%;
+    justify-content: space-between;
   }
 }

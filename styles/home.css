@@ -7,6 +7,7 @@
 }
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 body {
   font-family: "vazirReg";
@@ -15,7 +16,14 @@ body {
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
+  font-size: 1.6rem;
   line-height: 1.4;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .nav {
   max-width: 80%;
@@ -24,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .logoPart {
   display: flex;
@@ -32,14 +40,14 @@ body {
   align-items: center;
 }
 .logo {
-  width: 85px;
-  height: 89px;
+  width: 8.5rem;
+  height: 8.9rem;
 }
 
 .navTitle {
   font-family: "ordibehesht2";
   font-weight: bold;
-  font-size: 80px;
+  font-size: 8rem;
   background: rgb(87, 81, 71);
   background: linear-gradient(
     45deg,
@@ -59,7 +67,7 @@ body {
   text-decoration: none;
   color: var(--color3);
   font-family: "negarReg";
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 .navActive {
   background-image: url(./../public/images/Ellipse\ 2.png);
@@ -71,14 +79,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
   background-color: var(--color2);
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  padding: 5px 10px;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  padding: 0.5rem 1rem;
   color: var(--color4);
 }
 .phoneNumber {
@@ -91,7 +99,7 @@ body {
 .mobileTitle {
   font-family: "ordibehesht2";
   font-weight: bold;
-  font-size: 40px;
+  font-size: 4rem;
 
   background: rgb(87, 81, 71);
   background: linear-gradient(
@@ -108,19 +116,25 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 150px 0;
   gap: 50px;
 }
 .rightPart {
-  width: 55%;
+  max-width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rightPart img {
   width: 100%;
 }
 .leftPart {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -210,7 +224,6 @@ body {
 /* Choice Styles */
 .choice {
   margin: 150px 0;
-  overflow-x: hidden;
 }
 .choiceTitle {
   color: var(--color3);
@@ -244,7 +257,7 @@ body {
 }
 .choiceWrapper {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   width: 40%;
   gap: 30px;
@@ -260,6 +273,10 @@ body {
 .choiceText {
   font-family: "vazirMed";
   font-size: 28px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* About Styles */
@@ -314,14 +331,22 @@ body {
 
 /* Gallery Styles */
 
-.gallery {
+.galleryBg {
   background-color: var(--color1);
   padding: 100px 0;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .galleryWrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .galleryImg {
   width: 30%;
@@ -359,4 +384,15 @@ body {
   background-image: url(./../public/images/footer1.png);
   width: 100vw;
   height: 300px;
+}
+.nav,
+.header,
+.menu,
+.choice,
+.about,
+.gallery,
+.contact {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
