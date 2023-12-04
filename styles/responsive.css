@@ -104,7 +104,7 @@
     width: 530px;
   }
   .phoneCall {
-    padding: 5px;
+    padding: 10px;
     align-self: center;
     margin-top: 10px;
   }
@@ -171,6 +171,10 @@
   .callWrapper {
     margin-bottom: 50px;
   }
+  .aboutImgWrapper {
+    
+    width: 90%;
+  }
 }
 @media all and (max-width: 541px) {
   .container {
@@ -191,7 +195,7 @@
     justify-content: center;
   }
   .choiceImgWrapper {
-    width: 50%;
+    width: 90%;
   }
 
   .choiceTitle,
@@ -211,7 +215,7 @@
     width: 70%;
   }
   .galleryImg {
-    width: 55%;
+    width: 100%;
   }
 }
 @media all and (max-width: 451px) {
@@ -222,11 +226,16 @@
     font-size: 30px;
   }
   .rightPart {
-    width: 50%;
+    width: 100%;
   }
-  .contactRight,
-  .contactLeft {
+  .rightPart img {
+    width: 100%;
+  }
+  .contactRight {
     width: 70%;
+  }
+  .contactLeft {
+    width: 100%;
   }
   .addressTitle,
   .callTitle {

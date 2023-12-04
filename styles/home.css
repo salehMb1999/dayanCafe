@@ -121,11 +121,11 @@ body {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding: 150px 0;
+  padding: 150px 0 0 0;
   gap: 50px;
 }
 .rightPart {
-  max-width: 55%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
