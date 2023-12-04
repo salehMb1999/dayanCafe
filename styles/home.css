@@ -323,7 +323,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.galleryImg {
+  width: 30%;
+}
 /* Contact us Styles */
 
 .contact {
